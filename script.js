@@ -36,8 +36,8 @@ cardEdit1.addEventListener("click",() => cardText1.style.color = "red")
 
 
 // Fonctionnalité 4 :
-let cardText3 = document.getElementsByClassName("card-text")[2]
-let cardEdit3 = document.getElementsByClassName("btn-outline-secondary")[2]
+let cardText3 = document.getElementsByClassName("card-text")[1]
+let cardEdit3 = document.getElementsByClassName("btn-outline-secondary")[1]
 let clicked = false;
 let baseColor = cardText3.style.color
 let toggleCardTextColor = () => {
